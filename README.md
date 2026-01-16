@@ -31,16 +31,16 @@ Hal ini membawa kita pada situasi kedua: Anda melihat peringatan SIEM yang menun
 Lakukan pencarian log dasar:
 
 Pertanyaan
-Benar
 
-Alamat IP sumber mana yang memasukkan URL 'https://github.com/apache/flink/compare'?
-
+Alamat IP sumber mana yang memasukkan URL 'https://github.com/apache/flink/compare'? 172.16.17.54
+Jawaban: Buka halaman Manajemen Log, di sisi kanan Anda akan melihat bilah pencarian, tempel tautan tersebut dan lihat alamat IP-nya.
+<img width="1400" height="468" alt="image" src="https://github.com/user-attachments/assets/695202ef-8bd6-40ae-9bce-3ce0b1923ac8" />
 172.16.17.54
 
-Benar
 
-Apa tipe log yang memiliki nomor port tujuan 52567 dan alamat IP sumber 8.8.8.8?
 
+Apa tipe log yang memiliki nomor port tujuan 52567 dan alamat IP sumber 8.8.8.8? DNS
 Format Jawaban: logtype
+Jawaban: Buka halaman Manajemen Log, di sisi kanan Anda akan melihat bilah pencarian, tempelkan alamat IP, lalu cari nomor port tujuan yang diberikan, dan Anda akan mendapatkan jenis lognya.
+<img width="1400" height="470" alt="image" src="https://github.com/user-attachments/assets/896146d6-5607-4be3-88ff-159d6f189d52" />
 
-dns
